@@ -14,7 +14,7 @@ const Edit = () => {
     <div>
       <h1>Edit</h1>
       <p>Edit page</p>
-      <button onClick={() => setSearchParams({ who: "hwang" })}>
+      <button onClick={() => setSearchParams({ who: "👻" })}>
         query 바꾸기
       </button>
       <button

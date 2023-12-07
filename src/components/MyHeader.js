@@ -1,9 +1,9 @@
 const MyHeader = ({ headText, leftChild, rightChild }) => {
   return (
     <header>
-      <div className="head_btn_left">{leftChild}</div>
-      <div className="head_text">{headText}</div>
-      <div className="head_btn_right">{rightChild}</div>
+      <div className='w-3/12 justify-start'>{leftChild}</div>
+      <div className='w-2/4 text-2xl justify-center'>{headText}</div>
+      <div className='w-3/12 justify-end'>{rightChild}</div>
     </header>
   );
 };

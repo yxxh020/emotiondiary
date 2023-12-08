@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Grandiflora+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Grandiflora+One&display=swap');
 
 body {
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Dongle";
+  font-family: 'Dongle';
   min-height: 100vh;
   margin: 0px;
 }
@@ -42,7 +42,7 @@ body {
   padding: 10px 20px;
   font-size: 18px;
   white-space: nowrap;
-  font-family: "Dongle";
+  font-family: 'Dongle';
 }
 
 .MyButton_default {
@@ -89,5 +89,5 @@ header .head_btn_right {
 }
 
 header button {
-  font-family: "Dongle";
+  font-family: 'Dongle';
 }
